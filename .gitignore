@@ -5,7 +5,7 @@ __pycache__/
 airflow/logs/*
 airflow/airflow.db
 airflow/webserver_config.py 
-airlfow/airflow.cfg
+airflow/airflow.cfg
 
 
 .vscode
