@@ -89,7 +89,7 @@ AIRFLOW SETUP
 
 Set airflow directory
 ```
-export AIRFLOW_HOME= "/home/captain/INeuron/Industry Ready/Finance Project/Repo/finance-complaint/airflow"
+export AIRFLOW_HOME="/home/captain/INeuron/Industry Ready/Finance Project/Repo/finance-complaint/airflow"
 ```
 
 To install airflow 
@@ -100,6 +100,11 @@ pip install apache-airflow
 To configure databse
 ```
 airflow db init
+```
+
+To check if user was created successfully
+```
+airflow users list
 ```
 
 To create login user for airflow
