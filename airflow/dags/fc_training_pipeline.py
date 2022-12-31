@@ -21,7 +21,8 @@ with DAG(
     default_args={'retries': 2},
     # [END default_args]
     description='Machine learning Spark Project',
-    schedule_interval="@weekly",
+    # schedule_interval="@weekly",
+    schedule_interval=None,
     start_date=pendulum.datetime(2022, 11, 20, tz="UTC"),
     catchup=False,
     tags=['example'],
