@@ -23,7 +23,7 @@ with DAG(
     description='Machine learning Spark Project',
     # schedule_interval="@weekly",
     schedule_interval=None,
-    start_date=pendulum.datetime(2022, 11, 20, tz="UTC"),
+    start_date=pendulum.datetime(2022, 12, 31, tz="UTC"),
     catchup=False,
     tags=['example'],
 ) as dag:

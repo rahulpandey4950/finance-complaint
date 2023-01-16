@@ -21,11 +21,11 @@ The problem is to identify registered complaint will be disputed by customer or 
 3. Artifact Registry
 
 ## Dashboarding
-1. Grafana
-2. Prometheus
-3. Node Exporter
-4. Promtail
-5. Loki
+1. Grafana - Dashboarding Platform
+2. Prometheus - Data Source for Dashboarding (Time series Database and Alerting)
+3. Node Exporter - Monitor Host System info
+4. Promtail - An agent which ships the contents of local logs to a private Grafana Loki instance
+5. Loki - Data Source for Dashboarding (Like Prometheus but mainly for logging)
 
 ## How to run?
 
